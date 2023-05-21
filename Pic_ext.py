@@ -99,7 +99,7 @@ def new_file(x, y, f_name):
 def stream_cpy():    
     with open(pic, 'rb') as in_f:
         for byte in in_f.read(size):
-            byte_stream.append(byte.encode('hex'))
+            byte_stream.append(hex(byte))
 
 # byte_stream[] hex dump
 def print_all(file):
