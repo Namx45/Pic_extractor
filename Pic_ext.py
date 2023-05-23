@@ -1,3 +1,9 @@
+"""
+Github : https://github.com/Namx45
+"""
+
+
+
 # pic variable
 pic = "bird.jpeg"
 size = 29162797 # File size
